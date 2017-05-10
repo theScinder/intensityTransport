@@ -42,6 +42,19 @@ end
 %********************************************************************
 %TL:DR Alternatively, just run imSoMeta(Istack,dz); to get an example of solving the TIE both ways and additional computational imaging modes using the TIE %%%data
 %*******************************************************************
+
+Single shot methods for defocus images: 
+
 [1] Abrahamsson, S., Chen, J., Hajj, B., Stallinga, S., Katsov, A. Y., Wisniewski, J., … Gustafsson, M. G. L. (2013). Fast multicolor 3D imaging using aberration-corrected multifocus microscopy. Nature Methods, 10(1), 60–3. http://doi.org/10.1038/nmeth.2277
 
+
+Levoy, M., Ng, R., Adams, A., Footer, M., Horowitz, M. Light field microscopy. ACM 2006 Article. SIGGRAPH '06 ACM SIGGRAPH 2006 Papers. Pages 924-934. http://dl.acm.org/citation.cfm?id=1141976
+
+Helpful writeup: 
 [2] Gorthi, S. S., & Schonbrun, E. (2012). Phase imaging flow cytometry using a focus-stack collecting microscope. Optics Letters, 37(4), 707. http://doi.org/10.1364/OL.37.000707
+
+TIE with multiple planes (>2):
+[4] Waller L., Tian L., & Barbastathis, G.  Transport of Intensity phase-amplitude imaging with higher order intensity derivatives. Optics Express Vol. 18, Issue 12, pp. 12552-12561 (2010). https://doi.org/10.1364/OE.18.012552
+
+[5] Soto, M., Acosta, E. Improved phase imaging from intensity measurements in multiple planes. Applied Optics. Vol. 46, Issue 33, pp. 7978-7981 (2007). https://doi.org/10.1364/AO.46.007978
+
