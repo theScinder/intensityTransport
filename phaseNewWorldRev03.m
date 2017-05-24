@@ -1,4 +1,4 @@
-function [phase,phaseFilt] = phaseNewWorldRev03(Ia,I0,Ib,z)
+function [phase,phaseFilt] = phaseNewWorldRev03(Ia,I0,Ib,bwCo,z)
 %generate a phase map based on the defocused images Ia (above), Ib (below,
 %focused image I0, and the defocused difference (in microns) z
 % Detailed explanation goes here
@@ -58,7 +58,7 @@ for kx = 1:sizeX*2
 end
 %PHI = PHI .* myfilt;
 phase = ifft2(PHI);
-phaseFilt = ifft2(PHI .* myfilt);%(1:sizeX,1:sizeY);%./I0g;
+phaseFilt = ifft2(PHI .* (bwCo * myfilt));%(1:sizeX,1:sizeY);%./I0g;
 
 phase = phase(1:sizeX,1:sizeY);
 phaseFilt = phaseFilt(1:sizeX,1:sizeY);
